@@ -1,0 +1,10 @@
+{
+  "name": "@mini-dev/navigation-bar",
+  "version": "0.0.1",
+  "description": "修正小程序 Demo 中导航栏组件的 Bug",
+  "miniprogram": "libs",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
