@@ -99,6 +99,9 @@ Component({
                 })
             }
             this.triggerEvent('back', {delta: data.delta}, {})
+        },
+        home() {
+            this.triggerEvent('home', {}, {})
         }
     },
 })
