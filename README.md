@@ -7,7 +7,7 @@
 
 示例：
 
-
+![./navigator-bar.png](./navigator-bar.png)
 
 ## ChangeLog
 
