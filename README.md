@@ -7,7 +7,31 @@
 
 示例：
 
-![./navigator-bar.png](./navigator-bar.png)
+![./screenshots/navigator-bar.png](screenshots/navigator-bar.png)
+
+## 使用
+
+安装：
+
+```shell
+npm install git@github.com:miniapp-develop/navigation-bar.git
+```
+
+在 `.json` 中引入组件：
+
+```json
+{
+  "usingComponents": {
+    "navigation-bar": "@mini-dev/navigation-bar/index"
+  }
+}
+```
+
+在 `.wxml` 中使用
+
+```xml
+<navigation-bar title="Title" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+```
 
 ## ChangeLog
 
