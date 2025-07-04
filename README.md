@@ -11,13 +11,15 @@
 
 ## 使用
 
-安装：
+1. 安装：
 
 ```shell
 npm install git@github.com:miniapp-develop/navigation-bar.git
 ```
 
-在 `.json` 中引入组件：
+2. 执行 IDE 工具栏的 `构建npm` 命令。
+
+3. 在 `.json` 中引入组件：
 
 ```json
 {
@@ -27,13 +29,18 @@ npm install git@github.com:miniapp-develop/navigation-bar.git
 }
 ```
 
-在 `.wxml` 中使用
+4. 在 `.wxml` 中使用
 
 ```xml
-<navigation-bar title="Title" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<navigation-bar title="Title" back="{{false}}" color="black" background="#FFF" />
 ```
 
 ## ChangeLog
+
+### 0.0.2
+
+- 左侧区域从 width 改为 min-width；
+
 
 ### 0.0.1
 
