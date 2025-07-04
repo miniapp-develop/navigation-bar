@@ -68,7 +68,7 @@ Component({
             this.setData({
                 ios: !isAndroid,
                 innerPaddingRight: `padding-right: ${windowWidth - rect.left}px;`,
-                leftWidth: `width: ${windowWidth - rect.left}px;`,
+                leftWidth: `min-width: ${windowWidth - rect.left}px;`,
                 safeAreaTop: isDevtools || isAndroid ? `height: calc(var(--height) + ${safeArea.top}px); padding-top: ${safeArea.top}px;` : ``
             })
         },

@@ -7,7 +7,7 @@
 
 示例：
 
-![./screenshots/navigator-bar.png](screenshots/navigator-bar.png)
+![./screenshots/navigator-bar.png](screenshots/navigator-bar.jpg)
 
 ## 使用
 
